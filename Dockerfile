@@ -7,4 +7,5 @@ RUN yum install -y contextBroker
 RUN mkdir -p /data/db
 EXPOSE 1026
 COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT /entrypoint.sh
