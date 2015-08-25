@@ -4,7 +4,6 @@ Dockerfile for the contextbroker, ready to run, add -p 1026:1026 to map to the c
 
 
 ###What is a ContextBroker?
-[http://catalogue.fiware.org/enablers/publishsubscribe-context-broker-orion-context-broker](Orion Context Broker)
-
+[Orion Context Broker](http://catalogue.fiware.org/enablers/publishsubscribe-context-broker-orion-context-broker)
 
 ```docker run -d jonadev95/contextbroker-docker -p 1026:1026 --net=host ``` 
