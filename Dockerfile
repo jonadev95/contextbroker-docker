@@ -1,5 +1,5 @@
 FROM centos:6
-MAINTAINER Jonas Otten <jotten@eonerc.rwth-aachen.de>
+MAINTAINER Jonas Otten <jonadev95@posteo.org>
 RUN yum install -y epel-release
 RUN yum install -y boost-filesystem boost-thread libmicrohttpd logrotate libcurl boost-regex mongodb mongodb-server
 COPY testbed-fi-ware.repo /etc/yum/repos.d/testbed-fi-ware.repo
