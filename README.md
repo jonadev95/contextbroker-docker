@@ -1,7 +1,7 @@
 #Context Broker dockerfile
 
 ###TL;DR
-```docker run -d jonadev95/contextbroker-docker -p 1026:1026 --net=host ```
+```docker run -d --net=host jonadev95/contextbroker-docker```
 
 
 ###What is this repo about?
